@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoven Digital | Nossos Cases de Sucesso</title>
+    <link rel="stylesheet" href="/resources/stylesheet/style.css">
+    <link rel="icon" href="/resources/images/favicon.ico" type="image/x-icon">
+    <script src="/resources/scripts/scripts.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header-component></header-component>
+
+    <!-- Portfolio Hero Section -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 style="margin-bottom: 15px;">Nossos <span>cases</span> de sucesso</h1>
+                <h4>Conheça as histórias de transformação digital que desenvolvemos junto aos nossos clientes. Resultados reais, estratégias personalizadas e crescimento mensurável para cada negócio.</h4>
+            </div>
+        </div>
+        <div class="wave"></div>
+    </section>
+    
+    <!-- Portfolio Filters -->
+    <section class="portfolio-section">
+        <div class="container">
+            <!--<div class="portfolio-filters">
+                <button class="filter-button active">Todos</button>
+                <button class="filter-button">Redes Sociais</button>
+                <button class="filter-button">Branding</button>
+                <button class="filter-button">Marketing de Conteúdo</button>
+                <button class="filter-button">E-commerce</button>
+                <button class="filter-button">SEO</button>
+            </div>-->
+            
+            <div class="portfolio-grid">
+                <!-- Featured Case -->
+                <div class="case-card featured-case">
+                    <div class="case-image">
+                        <div class="carousel">
+                            <button class="carousel-btn prev" onclick="moveSlide(this, -1)">‹</button>
+                            <div class="carousel-track">
+                              <img src="/resources/images/1.png" alt="Imagem 1">
+                              <img src="/resources/images/2.png" alt="Imagem 2">
+                            </div>
+                            <button class="carousel-btn next" onclick="moveSlide(this, 1)">›</button>
+                        </div>
+                        <div class="case-category">Branding & Redes Sociais</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="featured-tag">Case em destaque</div>
+                        <div class="case-client">Jornal Etec</div>
+                        <h3 class="case-title">Reposicionamento digital do jornal da Etec de Palmital</h3>
+                        <p class="case-summary">O Jornal Etec precisava renovar sua identidade digital para se conectar com o público jovem da escola sem perder o compromisso com a informação para seus leitores. Desenvolvemos um rebranding completo e uma estratégia de conteúdo focada em apresentar uma imagem mais descontraída e animada, além de realizar postagens com mais frequência, atraindo novos públicos.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+1.319%</div>
+                                <div class="metric-label">Engajamento</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">+143%</div>
+                                <div class="metric-label">Seguidores</div>
+                            </div>
+                        </div>
+                        
+                        <!--<a href="#" class="case-link">Ver case completo →</a>-->
+                    </div>
+                </div>
+                
+                <!-- Regular Cases -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="/resources/images/3.png" alt="Essênci'A">
+                        <div class="case-category">Marketing de Conteúdo</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-client">Essênci'A</div>
+                        <h3 class="case-title">Estratégia de conteúdo para lançamento de linha sustentável</h3>
+                        <p class="case-summary">Desenvolvemos uma estratégia de marketing de conteúdo para o lançamento da nova linha de produtos sustentáveis da Essênci'A, com foco em conscientização ambiental e educação sobre consumo consciente.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+158%</div>
+                                <div class="metric-label">Alcance</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">+92%</div>
+                                <div class="metric-label">Conversão</div>
+                            </div>
+                        </div>
+                        
+                        <!--<a href="#" class="case-link">Ver case completo →</a>-->
+                    </div>
+                </div>
+                
+                <!--<div class="case-card">
+                    <div class="case-image">
+                        <img src="/api/placeholder/400/300" alt="New Vision">
+                        <div class="case-category">Branding</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-client">New Vision</div>
+                        <h3 class="case-title">Rebranding completo para rede de óticas</h3>
+                        <p class="case-summary">Criamos uma nova identidade visual moderna e sofisticada para a New Vision, incluindo logo, paleta de cores, tipografia e aplicações em materiais físicos e digitais.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+94%</div>
+                                <div class="metric-label">Reconhecimento</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">+67%</div>
+                                <div class="metric-label">Novos Clientes</div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="case-link">Ver case completo →</a>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="/api/placeholder/400/300" alt="PapoTec Podcast">
+                        <div class="case-category">Redes Sociais</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-client">PapoTec Podcast</div>
+                        <h3 class="case-title">Estratégia de conteúdo multiplataforma</h3>
+                        <p class="case-summary">Desenvolvemos uma estratégia de distribuição de conteúdo para o podcast PapoTec, transformando episódios em múltiplos formatos para diferentes plataformas e públicos.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+412%</div>
+                                <div class="metric-label">Downloads</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">+210%</div>
+                                <div class="metric-label">Engajamento</div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="case-link">Ver case completo →</a>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="/api/placeholder/400/300" alt="UrbanFit">
+                        <div class="case-category">E-commerce</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-client">UrbanFit</div>
+                        <h3 class="case-title">Estratégia de conversão para e-commerce de moda fitness</h3>
+                        <p class="case-summary">Implementamos uma estratégia completa de otimização de conversão para o e-commerce da UrbanFit, incluindo melhorias de UX, campanhas segmentadas e remarketing inteligente.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+183%</div>
+                                <div class="metric-label">Taxa de Conversão</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">+75%</div>
+                                <div class="metric-label">Valor Médio</div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="case-link">Ver case completo →</a>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="/api/placeholder/400/300" alt="TechStore">
+                        <div class="case-category">SEO</div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-client">TechStore</div>
+                        <h3 class="case-title">Estratégia de SEO para e-commerce de tecnologia</h3>
+                        <p class="case-summary">Desenvolvemos uma estratégia completa de SEO para a TechStore, incluindo otimização técnica, link building e criação de conteúdo otimizado para palavras-chave estratégicas.</p>
+                        
+                        <div class="case-metrics">
+                            <div class="metric">
+                                <div class="metric-value">+327%</div>
+                                <div class="metric-label">Tráfego Orgânico</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-value">TOP 3</div>
+                                <div class="metric-label">Ranking Google</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            
+            <!-- Pagination -->
+            <!--<div class="pagination">
+                <div class="pagination-item active">1</div>
+                <div class="pagination-item">2</div>
+                <div class="pagination-item">3</div>
+                <div class="pagination-item">→</div>
+            </div>-->
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h3>Pronto para ser nosso <span>próximo</span> case de <span>sucesso</span>?</h3>
+            <p>Entre em contato com nossa equipe e vamos construir juntos uma estratégia digital sob medida para o seu negócio.</p>
+            <button class="cta-button">Quero impulsionar minha marca!</button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer-component></footer-component>
+
+    <script>
+        // Script para interatividade dos filtros
+        const filterButtons = document.querySelectorAll('.filter-button');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                // Aqui seria implementada a lógica de filtragem
+                // Por enquanto apenas visual para demonstração
+            });
+        });
+    </script>
+</body>
+</html>
